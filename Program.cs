@@ -10,6 +10,11 @@ namespace Homework13
     {
         static void Main(string[] args)
         {
+           
+        }
+        public void Show()
+        {
+
         }
     }
 }
