@@ -18,7 +18,7 @@
         public static void Show()
         {
             ResultDel resultDel = Class2.Result;
-            resultDel.Invoke(5);
+            resultDel.Invoke(2.1);
             Console.WriteLine($"Remainder of the division:{resultDel}");
         }
     }

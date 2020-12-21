@@ -2,22 +2,22 @@
 {
     using System;
 
-    delegate bool ResultDel(int intForRez);
-    delegate void CalcDel();
+    delegate bool ResultDel(double doublelForRez);
+    delegate double CalcDel();
 
     public class Class2 
     {        
-        public static void Calc()
+        public static double Calc()
         {
-            IntOperation intOperation = Class1.Pow;
-            decimal result = intOperation.Invoke(3,5);             
+            DecimaOperation doubleOperation = Class1.Pow;
+            return doubleOperation.Invoke(10,35);             
         }
 
-        public static bool Result(int intForRez)
+        public static bool Result(double doublelForRez)
         {
-            IntOperation intOperation = Class1.Pow;
-            decimal result = intOperation.Invoke(3, 5);
-            decimal remainder = result % intForRez;
+            CalcDel сalcDel = Calc;
+            double result = сalcDel.Invoke();
+            double remainder = result % doublelForRez;
             return remainder == 0;
         }
     }
