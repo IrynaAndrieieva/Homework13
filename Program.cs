@@ -18,8 +18,8 @@
         public static void Show()
         {
             ResultDel resultDel = Class2.Result;
-            bool finaly = resultDel.Invoke(2.3);           
-            Console.WriteLine($"Remainder of the division:{finaly}");
+            bool finaly = resultDel.Invoke(2);           
+            Console.WriteLine($"Remainder of the division: {finaly}");
         }
     }
 }
