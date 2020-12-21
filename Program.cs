@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Homework13
+﻿namespace Homework13
 {
+    using System;
+
     public delegate void ShowDeleg();
 
     class Program
@@ -22,6 +18,5 @@ namespace Homework13
             resultDel.Invoke(5);
             Console.WriteLine($"{resultDel}");
         }
-
     }
 }

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Homework13
+﻿namespace Homework13
 {
+    using System;
+
     delegate bool ResultDel(int intForRez);
 
     public class Class2 
@@ -23,7 +19,5 @@ namespace Homework13
             decimal remainder = result % intForRez;
             return remainder == 0;
         }
-
-
     }
 }
