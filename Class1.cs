@@ -6,9 +6,9 @@
 
     public class Class1
     {       
-        public static int Pow(int number1, int number2)
+        public static int Pow(int numberOne, int numberTwo)
         {
-            return number1 * number2;
+            return numberOne * numberTwo;
         }
     }
 }
