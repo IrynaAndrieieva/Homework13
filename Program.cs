@@ -14,5 +14,10 @@ namespace Homework13
 
         }
 
+        public static void Show()
+        {
+            ResultDel resultDel;
+        }
+
     }
 }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Homework13
 {
+    delegate bool ResultDel(int intForRez);
 
     public class Class2 
     {
