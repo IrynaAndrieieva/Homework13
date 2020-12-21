@@ -10,17 +10,17 @@ namespace Homework13
 
     public class Class2 
     {
-        private int result;
+        private static int result;
 
-        public void Calc()
+        public static void Calc()
         {
             IntOperation intOperation = Class1.Pow;
-            this.result = intOperation.Invoke(3,5);           
+            result = intOperation.Invoke(3,5);           
         }
-      
-        public bool Result(int intForRez)
+
+        public static bool Result(int intForRez)
         {
-            decimal remainder = this.result % intForRez;
+            decimal remainder = result % intForRez;
             return remainder == 0;
         }
 

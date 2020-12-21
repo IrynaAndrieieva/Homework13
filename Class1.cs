@@ -10,7 +10,7 @@ namespace Homework13
 
     public class Class1
     {
-        public delegate void ShowDeleg();
+        ShowDeleg showDeleg;
 
         public static int Pow(int number1, int number2)
         {
