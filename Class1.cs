@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace Homework13
 {
+    delegate int IntOperation(int i, int j);
+
     public class Class1
     {
-        public delegate void Show();
+        public delegate void ShowDeleg();
 
-        public void Pow(int number1, int number2)
+        public static int Pow(int number1, int number2)
         {
-            int multiplicationResult = number1 * number2;
+            return number1 * number2;
         }
     }
 }
