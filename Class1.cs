@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Homework13
 {
-    delegate int IntOperation(int i, int j);
+    delegate int IntOperation(int numberOne, int numberTwo);
 
     public class Class1
     {
