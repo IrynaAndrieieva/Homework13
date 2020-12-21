@@ -5,12 +5,12 @@
     delegate bool ResultDel(double doublelForRez);
     delegate double CalcDel();
 
-    public class Class2 
-    {        
+    public class Class2
+    {
         public static double Calc()
         {
             DecimaOperation doubleOperation = Class1.Pow;
-            return doubleOperation.Invoke(10,35);             
+            return doubleOperation.Invoke(10, 35);
         }
 
         public static bool Result(double doublelForRez)
