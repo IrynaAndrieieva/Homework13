@@ -8,7 +8,10 @@
     {
         static void Main(string[] args)
         {
-            ShowDeleg showDeleg = Show;
+            //ShowDeleg showDeleg = Show;
+            //showDeleg.ToString();
+
+            Show();
             Console.ReadLine();
         }
 
@@ -16,7 +19,7 @@
         {
             ResultDel resultDel = Class2.Result;
             resultDel.Invoke(5);
-            Console.WriteLine($"{resultDel}");
+            Console.WriteLine($"Remainder of the division:{resultDel}");
         }
     }
 }

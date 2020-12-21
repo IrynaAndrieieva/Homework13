@@ -2,11 +2,11 @@
 {
     using System;
 
-    delegate int IntOperation(int numberOne, int numberTwo);
+    delegate decimal IntOperation(decimal numberOne, decimal numberTwo);
 
     public class Class1
     {       
-        public static int Pow(int numberOne, int numberTwo)
+        public static decimal Pow(decimal numberOne, decimal numberTwo)
         {
             return numberOne * numberTwo;
         }
